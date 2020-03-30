@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap');
+* {
+	box-sizing: border-box;
+}
+body {
+	line-height: 1.5;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+}
+/*GLOBAL*/
+.container {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;	
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.travel {
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1.2px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	color: rgba(150,157,160,0.9);
+	z-index: 180;
+	margin-top: 25px;
+}
+.text-title {
+	font-size: 30px;
+	font-weight: 600;
+	color: rgba(39,61,70,0.8);
+}
+.text-context {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 35px;
+	color: rgba(104,115,120,0.8);
+}
+.button {
+	width: 185px;
+	height: 40px;
+	font-family: 'Poppins', sans-serif;
+  	color: #e6f1f0;
+  	letter-spacing: 2px;
+	background-color: #80b7b3;
+	border-radius: 22px;
+	border: 0;
+  	text-transform: uppercase;
+  	box-shadow: 0 0 20px 20px;
+ }
+ .arrow {
+	font-size: 20px;
+	position: relative;
+	left: 5px;
+}
+/*TITLE*/
+.marcy {
+	position: relative;
+	box-shadow: inset 0 5px 10px rgba(133,133,133,0.3), 0 10px 10px rgba(160,160,160,0.3), 0 15px 10px rgba(197,197,197,0.3);
+	font-size: 41px;
+	margin: 0 500px 0 475px;
+	padding: 15px 0;
+	background-color: #80b7b3;
+}
+.story {
+	font-size: 133px;
+	letter-spacing: 40px;
+	margin: -70px 300px 0 300px;
+	color: #e9ebec;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+}
+/*BLOCK VOLKANO*/
+.story-volkano {
+	display: flex;
+	height: 100vh;
+	margin: 30px 0;
+}	
+.text {
+	text-align: left;
+}
+.title-volkano {
+	margin: 20px 0 60px;
+}
+.context-volkano {
+	margin: 40px 120px 100px 0;
+}
+.img-vol {
+	width: 680px;
+}
+.img-pink {
+	position: relative;
+	width: 400px;
+	height: 200px;
+	margin: 75px -250px 0 -120px;
+}
+/*BLOCK MEN*/
+.story-men{
+	display: flex;
+	margin: 30px 0;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.title-men{
+	display: flex;
+	margin: 0 250px 20px;
+}
+.position-left {
+	text-align: left;
+	margin: 0 250px;
+}
+.context-men {
+	margin-bottom: 40px;
+}
